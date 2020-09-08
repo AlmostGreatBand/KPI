@@ -1,5 +1,5 @@
-Team Agb
+###Team Agb
 
-1.[Засько Євгеній](https://github.com/NeProgramist)
-2.[Ковалишин Олег](https://github.com/ALEGATOR1209)
-
+*[Засько Євгеній](https://github.com/NeProgramist)    
+*[Ковалишин Олег](https://github.com/ALEGATOR1209)    
+*[Сімонов Павло](https://github.com/DjBee0312)    
