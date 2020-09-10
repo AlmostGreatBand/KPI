@@ -16,10 +16,13 @@ func main() {
 	})
 
 	http.HandleFunc("/time", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Add("Content-Type", "application/json")
+
 		type Json struct {
 			Time string `json:"time"`
 		}
 		jsn := Json{ Time: time.Now().Format(time.RFC3339) }
+
 		if er := json.NewEncoder(w).Encode(jsn); er != nil {
 			fmt.Fprintf(w, "an error appeared: %v", er)
 		}
