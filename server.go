@@ -16,6 +16,7 @@ func main() {
 	})
 
 	http.HandleFunc("/time", func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(200)
 		w.Header().Add("Content-Type", "application/json")
 
 		type Json struct {
